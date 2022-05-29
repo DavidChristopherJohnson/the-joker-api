@@ -21,3 +21,6 @@ Run the test cases.
 ## Learn More
 
 To learn Fastify, check out the [Fastify documentation](https://www.fastify.io/docs/latest/).
+
+## Docker Compose
+The `docker compose up` command will create a docker container installing a mongodb instance ready for use. The volumn of this database is external and will not be deleted on `docker compose down`
